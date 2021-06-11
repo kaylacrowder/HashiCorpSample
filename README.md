@@ -5,4 +5,6 @@ For questions or concerns please reach out to the HashiCorp Education team at `#
 
 # Assignments
 
+Click on the link for the respective role you are applying for below to view the writing assignment.
+
 * [Education Engineer](education-engineer/assignment.md)
