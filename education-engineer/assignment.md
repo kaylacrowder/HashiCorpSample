@@ -15,15 +15,15 @@ Read the style guide snippets, which is a subset of our official engineering sty
 
 We recommend you clone the project to your local workstation. Use the Code button on the main project page to retrieve the URL and issue the `git clone` command on your workstation.
 
-Alternatively, you may download the `terraform-getting-started.md` file. This file is located in the `education-engineer` folder. You can also download the entire project as a zip.
+Alternatively, you may download the [terraform-getting-started.md](terraform-getting-started.md) file. This file is located in the `education-engineer` folder. You can also download the entire project as a zip.
 
-Another option is to copy the file content to your local workstation. To view the file content, click on the file `terraform-getting-started.md` from GitHub. Click on the "Raw" button when viewing the individual file and copy the content. Before editing, commit the initial `terraform-getting-started.md` file to the repo that you have created for this project.
+Another option is to copy the file content to your local workstation. To view the file content, click on the file [terraform-getting-started.md](terraform-getting-started.md) from GitHub. Click on the "Raw" button when viewing the individual file and copy the content. Before editing, commit the initial [terraform-getting-started.md](terraform-getting-started.md) file to the repo that you have created for this project.
 
 **NOTE**: DO NOT FORK THE PROJECT AND SUBMIT A PULL REQUEST TOWARDS THE ORIGINAL PROJECT.
 
 ### Edit the sample
 
-Now that your environment is set up, you can start to edit the file `terraform-getting-started.md` on your local machine. Complete the following tasks, make all changes in Markdown.
+Now that your environment is set up, you can start to edit the file [terraform-getting-started.md](terraform-getting-started.md) on your local machine. Complete the following tasks, make all changes in Markdown.
 
 - Look for and fix any spelling or grammar issues.
 - Edit the text for readability and compatibility with the style guide.
