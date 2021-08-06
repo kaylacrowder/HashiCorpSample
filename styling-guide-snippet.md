@@ -1,39 +1,27 @@
 # HashiCorp Engineering Writing Style
 
-Whether it is a blog post, technical documentation, or communication with users,
+Whether it is a blog post or technical documentation,
 HashiCorp has a particular writing style we do our best to adhere to.
-
-It is important to note that these are _guidelines_. There are situations where
-violating these rules is sensible, acceptable, or required. However, try to
-adhere to these guides.
 
 ## Why?
 
-Having a consistent writing style and voice is what makes the HashiCorp brand
-strong and vibrant. There are a few reasons for the choices of our writing
-style. In particular:
+A consistent writing style and voice is what makes the HashiCorp brand
+strong and vibrant. There are a few reasons for our writing
+style choices. In particular, we want to optimize for:
 
-- **Optimizing for non-native speakers** - HashiCorp is a global company. We
-  have users on at least 6 continents, many of whom do not speak English (the
-  primary language of the company and our writings). Translation tools are not
-  very smart, but even literal translations do not mean the same thing in
-  different colloquialisms.
+- **Non-native speakers** - Literal translations do not mean the same thing in different countries or regions.
 
-- **Optimizing for 2am, half awake operators** - Many HashiCorp tools are in the
-  path of downtime. While we strive to make the best tools in the world,
-  sometimes they fail. Having flowery sentences is not helpful when trying to
+- **2am, half awake operators** - Flowery sentences is not helpful when trying to
   get a system back online.
 
-- **Optimizing for our own time** - When we write in the same style, we can
-  spend more time focusing on the content and body of a pull request or
-  documentation change, instead of pointing out small style inconsistencies.
+- **Time efficiency** - When we write in the same style, we can
+  spend more time focusing on the content.
 
-- **Optimizing for product transitions** - A user who is familiar with the
+- **Product transitions** - A user who is familiar with the
   Consul documentation that chooses to adopt Vault should not feel as though
-  they need to learn an entire new language just to read the docs. This helps
-  our overall adoption strategy.
+  they need to learn an entire new language just to read the docs. 
 
-## Guiding Principles
+## Guiding principles
 
 The majority of our principles are guided by experience and user feedback. As a
 high-level set of rules, we follow [Orwell's 6
@@ -53,7 +41,59 @@ rules](http://www.orwell.ru/library/essays/politics/english/e_polit):
 
 - Break any of these rules sooner than say anything outright barbarous.
 
-### Grammatical Person: "You" for the User
+## Sentence structure
+
+We have three main rules for sentence structure listed below. 
+
+### Active voice
+
+To convey causality, always use active voice. For example:
+
+- This file configure ...
+- Terraform deploys ...
+- The proxy sends ...
+
+### Present tense
+
+To convey the timing, always use present tense. For example:
+
+- Now configure the server.
+- Set the variable ...
+- Add the parameter ...
+
+### Directive language
+
+To convey action, use directive language. For example:
+
+- Open a browser. 
+- Download the binary.
+- Destroy the infrastructure. 
+
+
+### Complete example
+
+```text
+Good:
+To install Terraform, find the appropriate package for your system and download it as a zip archive.
+
+Bad:
+You can install Terraform by finding the binary and downloading it. You will need the appropriate package for your system.
+```
+
+## Word choice
+
+The following are recommendations that will help you with word choice. 
+
+- Use "you" for the user
+- Use "we" for HashiCorp recommendations
+- avoid ableist language
+- never use a metaphor, simile, jargon, or other figure of speech
+- use short words 
+- cut unnecessary words
+
+Below are a few word choice examples. 
+
+### Grammatical person: "You" for the user
 
 Write docs in the second person, addressing the reader directly as "you".
 
@@ -63,10 +103,7 @@ Good: Terraform Cloud's API lets you create workspaces without a VCS connection.
 Bad: Terraform Cloud's API allows one to create workspaces without a VCS connection.
 ```
 
-### Active Voice: "We" for HashiCorp
-
-Avoid [passive voice](https://en.wikipedia.org/wiki/English_passive_voice);
-write with the active voice as much as possible.
+### Active voice: "We" for HashiCorp
 
 Active voice _enforces attribution._ In
 our documentation, the opinions and advice on offer belong to **us, here at
@@ -81,28 +118,19 @@ Bad:
 It is recommended to configure VCS access when first setting up an organization.
 ```
 
-In cases where the actor of a sentence is a tool or system (rather than a person
-or company), you should still use active voice, because it's easier to
+In cases where the actor of a sentence is a tool or system, rather than a person
+or company, you should still use active voice. It's easier to
 understand and sometimes distinguishes between automated and operator actions.
 
 ```text
 Good:
-Terraform has a provider framework to leverage this behavior.
-
-Bad:
-To hook into this behavior, a provider framework has been built into Terraform.
-
-Good:
-Next, register the service
-
-Also good:
 Next, Kubernetes will register the service.
 
 Bad:
 Next, the service will be registered.
 ```
 
-## Inclusive Language
+### Inclusive Language
 
 ### Pronouns
 
@@ -117,8 +145,7 @@ make sure they are necessary, and if so, use the gender neutral "they/them".
 ### Over Simplification
 
 Our products can be complicated. Words that indicate that processes are easy
-don't add meaning to your writing and can alienate users who are having a hard
-time or encountering bugs.
+don't can alienate users who are having a hard time or are encountering bugs.
 
 Avoid saying:
 - easy, easily, simply
