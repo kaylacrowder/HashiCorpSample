@@ -91,7 +91,7 @@ The following are recommendations that will help you with word choice.
 - use short words 
 - cut unnecessary words
 
-Below are a few word choice examples. 
+Below are a few word-choice examples. 
 
 ### Grammatical person: "You" for the user
 
