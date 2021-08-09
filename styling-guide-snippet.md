@@ -5,7 +5,7 @@ HashiCorp has a particular writing style we do our best to adhere to.
 
 ## Why?
 
-A consistent writing style and voice is what makes the HashiCorp brand
+A consistent writing style and voice makes the HashiCorp brand
 strong and vibrant. There are a few reasons for our writing
 style choices. In particular, we want to optimize for:
 
