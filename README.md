@@ -11,5 +11,5 @@ Click on the link for the respective role you are applying for below to view the
 
 ## Language & Styling
 
-- [Writing Styling Guide](styling-guide-snippet.md)
+- [Writing Style Guide](styling-guide-snippet.md)
 - [Layout Guide](guide-template.md)
