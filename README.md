@@ -8,6 +8,7 @@ For questions or concerns please reach out to the HashiCorp Education team at `#
 Click on the link for the respective role you are applying for below to view the writing assignment. Make sure to review the writing style guide and the layout guide prior to starting the assignment.
 
 * [Education Engineer](education-engineer/assignment.md)
+* [Technical Writer](technical-writer/assignment.md)
 
 ## Language & Styling
 
