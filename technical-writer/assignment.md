@@ -27,7 +27,7 @@ Edit the text so that it is easy to read:
 
 Once you're finished with your edits, send the PR link to the HashiCorp recruiter.
 
-**NOTE**: DO NOT FORK THE PROJECT AND SUBMIT A PULL REQUEST TOWARDS THE ORIGINAL PROJECT.
+**NOTE**: DO NOT FORK THE PROJECT. MAKE A COPY OF ALL FILES, CREATE YOUR OWN FRESH REPOSITORY AND SUBMIT A PULL REQUEST TOWARDS YOUR OWN PROJECT.
 
 ---
 

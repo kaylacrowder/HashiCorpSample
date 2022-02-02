@@ -19,7 +19,7 @@ Alternatively, you may download the [terraform-getting-started.md](terraform-get
 
 Another option is to copy the file content to your local workstation. To view the file content, click on the file [terraform-getting-started.md](terraform-getting-started.md) from GitHub. Click on the "Raw" button when viewing the individual file and copy the content. Before editing, commit the initial [terraform-getting-started.md](terraform-getting-started.md) file to the repo that you have created for this project.
 
-**NOTE**: DO NOT FORK THE PROJECT AND SUBMIT A PULL REQUEST TOWARDS THE ORIGINAL PROJECT.
+**NOTE**: DO NOT FORK THE PROJECT. MAKE A COPY OF ALL FILES, CREATE YOUR OWN FRESH REPOSITORY AND SUBMIT A PULL REQUEST TOWARDS YOUR OWN PROJECT.
 
 ### Edit the sample
 
