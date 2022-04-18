@@ -11,6 +11,8 @@ Create a git repository on GitHub, GitLab, Bitbucket, or any other git hosting s
 
 Read the style guide snippets, which is a subset of our official engineering style guide, and the guide template. Then make improvements to the sample prose, so it embodies the principles in the style guide. 
 
+You may link to existing resources created by HashiCorp or the community, but do not plagiarize content from HashiCorp tutorials or documentation. 
+
 ### Get started
 
 We recommend you clone the project to your local workstation. Use the Code button on the main project page to retrieve the URL and issue the `git clone` command on your workstation.
