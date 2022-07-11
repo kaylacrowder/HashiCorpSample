@@ -1,30 +1,23 @@
 # HashiCorp Engineering Writing Style
 
-Whether it is a blog post or technical documentation,
-HashiCorp has a particular writing style we do our best to adhere to.
+Whether it is a blog post or technical documentation, HashiCorp has a particular writing style we do our best to adhere to.
 
 ## Why?
 
-A consistent writing style and voice makes the HashiCorp brand
-strong and vibrant. There are a few reasons for our writing
-style choices. In particular, we want to optimize for:
+A consistent writing style and voice strengthens the HashiCorp brand and 
+produces clearer educational materials. Our style guide optimizes for:
 
-- **Non-native speakers** - Literal translations do not mean the same thing in different countries or regions.
+- **Non-native speakers** - Idiomatic language may not translate easily in different countries or regions.
 
-- **2am, half awake operators** - Flowery sentences is not helpful when trying to
-  get a system back online.
+- **2am, half awake operators** - Flowery sentences are distracting when resolving production incidents.
 
-- **Time efficiency** - When we write in the same style, we can
-  spend more time focusing on the content.
+- **Efficiency** - A clear style guide helps content developers to focus on the content itself. 
 
-- **Product transitions** - A user who is familiar with the
-  Consul documentation that chooses to adopt Vault should not feel as though
-  they need to learn an entire new language just to read the docs. 
+- **Product transitions** - Consistent style lets users seamlessly navigate between documentation for our different products.
 
 ## Guiding principles
 
-The majority of our principles are guided by experience and user feedback. As a
-high-level set of rules, we follow [Orwell's 6
+User experience and feedback informs our principles. We aim to follow [Orwell's 6
 rules](http://www.orwell.ru/library/essays/politics/english/e_polit):
 
 - Never use a metaphor, simile, or other figure of speech which you are used to
@@ -43,13 +36,13 @@ rules](http://www.orwell.ru/library/essays/politics/english/e_polit):
 
 ## Sentence structure
 
-We have three main rules for sentence structure listed below. 
+The following are our main rules for sentence structure.
 
 ### Active voice
 
 To convey causality, always use active voice. For example:
 
-- This file configure ...
+- This file configures ...
 - Terraform deploys ...
 - The proxy sends ...
 
@@ -63,7 +56,7 @@ To convey the timing, always use present tense. For example:
 
 ### Directive language
 
-To convey action, use directive language. For example:
+To convey instructions, use directive language. For example:
 
 - Open a browser. 
 - Download the binary.
@@ -82,20 +75,20 @@ You can install Terraform by finding the binary and downloading it. You will nee
 
 ## Word choice
 
-The following are recommendations that will help you with word choice. 
+Observe the following recommendations for word choice:
 
 - Use "you" for the user
 - Use "we" for HashiCorp recommendations
-- avoid ableist language
-- never use a metaphor, simile, jargon, or other figure of speech
-- use short words 
-- cut unnecessary words
+- Avoid ableist language
+- Never use a metaphor, simile, jargon, or other figure of speech
+- Use short words 
+- Cut unnecessary words
 
 Below are a few word-choice examples. 
 
 ### Grammatical person: "You" for the user
 
-Write docs in the second person, addressing the reader directly as "you".
+Write documentation in the second person, addressing the reader directly as "you".
 
 ```text
 Good: Terraform Cloud's API lets you create workspaces without a VCS connection.
@@ -142,9 +135,9 @@ make sure they are necessary, and if so, use the gender neutral "they/them".
 -|-
 |Once you give the developer the token they can...|Once you give the developer the token she can...|
 
-### Over Simplification
+### Oversimplification
 
-Our products can be complicated. Words that indicate that processes are easy
+Our products can be complex. Words that indicate that processes are easy
 don't can alienate users who are having a hard time or are encountering bugs.
 
 Avoid saying:
