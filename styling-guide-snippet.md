@@ -7,7 +7,7 @@ Whether it is a blog post or technical documentation, HashiCorp has a particular
 A consistent writing style and voice strengthens the HashiCorp brand and 
 produces clearer educational materials. Our style guide optimizes for:
 
-- **Non-native speakers** - Idiomatic language may not translate easily in different countries or regions.
+- **Non-native speakers** - Common figures of speech may not translate easily in different countries or regions.
 
 - **2am, half awake operators** - Flowery sentences are distracting when resolving production incidents.
 
@@ -138,7 +138,7 @@ make sure they are necessary, and if so, use the gender neutral "they/them".
 ### Oversimplification
 
 Our products can be complex. Words that indicate that processes are easy
-don't can alienate users who are having a hard time or are encountering bugs.
+can alienate users who are having a hard time or are encountering bugs.
 
 Avoid saying:
 - easy, easily, simply

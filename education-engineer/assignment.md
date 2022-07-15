@@ -6,18 +6,19 @@ Please take the time to carefully review the [writing style guide](../styling-gu
 
 ## Instructions
 
+
 Update the [sample text](terraform-getting-started.md) to follow the provided [writing style guide](../styling-guide-snippet.md) and
 [guide template](../guide-template.md).
 
 **Any changes that you think will improve the text and explain the concepts better are welcome**. If anything in the text does not match your opinion on a best practice, feel free to correct the meaning of the text. You may link to existing resources created by HashiCorp or the community, but do not plagiarize content from HashiCorp tutorials or documentation. 
 
 To complete the assignment:
-- Create a new GitHub repository for your submission. Make sure the repository is publicly accessible for our team to review your submission.
+- Create a new, public GitHub repository for your submission (do not fork this repository). Make sure the repository is publicly accessible so we can review your submission.
 - Before editing, commit [the initial version of the sample text](terraform-getting-started.md) to the main branch of the repository. 
 - Create a new branch and update the sample text to satisfy the style guide.
-- Create a pull request for your proposed changes to the text.
+- Create a pull request for your proposed changes to the text. Do not merge the pull request.
 
-**NOTE: DO NOT FORK THE PROJECT.** Make a copy of all files, create a fresh repository, and open a pull request against your own project. Do not merge the pull request.
+**NOTE: DO NOT FORK THE PROJECT.** Make a copy of all files, create a fresh repository, and open a pull request against your own project.
 
 When editing:
 - Identify and fix any spelling or grammar mistakes.

@@ -6,7 +6,7 @@ Contact the team at `#team-education` or team-education@hashicorp.com with any q
 
 # Assignments
 
-Select the role you are applying for from the list below to access the corressponding writing assignment. Make sure to review the writing style and the layout guides prior to starting the assignment.
+Select the role you are applying for from the list below to access the corresponding writing assignment. Make sure to review the writing style and the layout guides prior to starting the assignment.
 
 * [Education Engineer](education-engineer/assignment.md)
 * [Technical Writer](technical-writer/assignment.md)
