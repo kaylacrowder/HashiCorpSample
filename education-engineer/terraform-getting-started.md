@@ -266,13 +266,8 @@ The apply command created your docker container.
 
 Visit [http://localhost:8080](http://localhost:8080) to view the base NGINX installation.
 
-![A screenshot of a web server welcome page on a black background that says "Welcome to nginx!
-If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
-
-For online documentation and support please refer to nginx.org.
-Commercial support is available at nginx.com.
-
-Thank you for using nginx."](https://github.com/kaylacrowder/HashiCorpSample/blob/kmcsample/education-engineer/localhost.jpg?raw=true)
+![A screenshot of a web server welcome page on a black background that says "Welcome to nginx! If you see this page, the nginx web server is successfully installed and working. Further configuration is required. For online documentation and support please refer to nginx.org.
+Commercial support is available at nginx.com. Thank you for using nginx."](localhost.jpg)
 
 Run **docker ps** to verify the container is running.
 
